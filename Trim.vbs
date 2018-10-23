@@ -1,0 +1,1 @@
+Clipboard.Value = Trim(Clipboard.Value)

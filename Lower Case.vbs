@@ -1,0 +1,1 @@
+Clipboard.Value = LCase(Clipboard.Value)
