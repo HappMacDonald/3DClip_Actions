@@ -1,3 +1,5 @@
+' I usually run this action with keyboard shortcut CTRL+ALT + R
+
 Dim max,result
 max=InputBox("Max Value?", "Random Number Generator", "1e9")
 If(max <> "") Then 'Detects cancel click, silently exits

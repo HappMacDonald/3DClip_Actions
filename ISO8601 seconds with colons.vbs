@@ -1,4 +1,5 @@
 ' Warning! Does not yet properly handle fractional hour timezones! Hard To test for that from the US. :P
+' I do not ordinarily run this action with a keyboard shortcut, as it just seems to be needed less frequently than it's minutes' cousins. :)
 
 Public Function ToIsoDateTime(datetime) 
   ToIsoDateTime = ToIsoDate(datetime) & "T" & ToIsoTime(datetime) & GetTimeZoneOffset()

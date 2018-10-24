@@ -1,4 +1,5 @@
 ' Warning! Does not yet properly handle fractional hour timezones! Hard To test for that from the US. :P
+' I usually run this action with keyboard shortcut CTRL+SHIFT + I
 
 Public Function ToIsoDateTime(datetime) 
   ToIsoDateTime = ToIsoDate(datetime) & "T" & ToIsoTime(datetime) & GetTimeZoneOffset()
